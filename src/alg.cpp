@@ -1,4 +1,6 @@
+// Copyright 2022 NNTU-CS
 #include <stdint.h>
+
 double pown(double value, uint16_t n) {
     double result = 1.0;
     for (uint16_t i = 0; i < n; ++i) {
