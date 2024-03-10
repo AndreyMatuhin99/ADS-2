@@ -41,11 +41,11 @@ TEST(ads2, checkItem4) {
 }
 
 TEST(ads2, checkExpn1) {
-  EXPECT_NEAR(exp(1.0), expn(1.0, 2), 0.00000001);
+  EXPECT_NEAR(2.718281828459045, expn(1.0, 2), 0.00000001);
 }
 
 TEST(ads2, checkExpn2) {
-  EXPECT_NEAR(exp(1.0), expn(1.0, 10), 0.00000001);
+  EXPECT_NEAR(2.718281828459045, expn(1.0, 10), 0.00000001);
 }
 
 TEST(ads2, checkSinn1) {
