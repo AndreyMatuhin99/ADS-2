@@ -1,6 +1,7 @@
 // Copyright 2022 NNTU-CS
 #include <gtest/gtest.h>
 #include <cstdint>
+#include <cmath>
 #include "alg.h"
 
 TEST(ads2, checkPow1) {
