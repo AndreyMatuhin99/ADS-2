@@ -9,7 +9,6 @@ uint64_t fact(uint16_t n) {
     }
     return result;
 }
-
 double pown(double value, uint16_t n) {
     double result = 1.0;
     for (uint16_t i = 0; i < n; ++i) {
